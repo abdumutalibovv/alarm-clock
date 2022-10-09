@@ -1,0 +1,96 @@
+/*-->  @important font <-- */
+@import url("https://fonts.googleapis.com/css2? family= Karla:wght@700 & family= Montserrat:wght@400;500;600;700 & display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Monserrat";
+}
+
+body,
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    min-height: 100vh;
+    background: #5fa4d8;
+}
+
+.wrapper {
+    width: 420px;
+    background: #fffcff;
+    padding: 30px 30px 38px;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+    box-shadow: 0px 0px 20px rgba(172, 198, 212, 0.6);
+}
+
+.clock__photo {
+    max-width: 200px;
+}
+
+h1 {
+    font-size: 38px;
+    font-weight: 700;
+    margin: 30px 0px;
+    padding: 15px;
+    border: 1px solid rgba(236, 233, 233, 0.6);
+    box-shadow: 0px 0px 10px rgba(236, 233, 233, 0.6);
+    border-radius: 5px;
+}
+
+.disablec{
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.column {
+    padding: 2px;
+    border-radius: 6px;
+    border: 1px solid rgb(207, 233, 211);
+}
+
+select {
+    outline: none;
+    border: none;
+    height: 53px;
+    width: 100%;
+    font-size: 19px;
+}
+
+
+button {
+    margin-top: 30px;
+    width: 100%;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background-color: #88cafc;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(224, 215, 226);
+  }
+  
+  button:hover {background-color: #badbf5}
+  
+  button:active {
+    background-color: #badbf5;
+    box-shadow: 0 5px rgb(247, 235, 235);
+    transform: translateY(4px);
+  }
