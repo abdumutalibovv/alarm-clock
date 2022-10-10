@@ -38,13 +38,14 @@ h1 {
     font-size: 38px;
     font-weight: 700;
     margin: 30px 0px;
-    padding: 15px;
+    padding: 15px 20px;
     border: 1px solid rgba(236, 233, 233, 0.6);
-    box-shadow: 0px 0px 10px rgba(236, 233, 233, 0.6);
     border-radius: 5px;
+    color: #332;
+    box-shadow: 0px 0px 5px #5fa4d8;
 }
 
-.disablec {
+.disable {
     opacity: 0.6;
     pointer-events: none;
 }
@@ -64,10 +65,19 @@ h1 {
 
 select {
     outline: none;
-    border: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
     height: 53px;
+    padding: 0px 15px;
     width: 100%;
     font-size: 19px;
+    font-size: 20px;
+    font-family: serif;
+}
+
+select:hover {
+    box-shadow: 0px 0px 10px #5fa4d8;
+    border: 1px solid #98d0f8;
 }
 
 button {
@@ -77,28 +87,19 @@ button {
     padding: 15px 25px;
     font-size: 24px;
     cursor: pointer;
-    text-align: center;
-    text-decoration: none;
     outline: none;
     background-color: #88cafc;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px rgb(224, 215, 226);
 }
 
 button:hover {
     background-color: #badbf5;
-}
-
-button:active {
-    background-color: #badbf5;
-    box-shadow: 0 5px rgb(247, 235, 235);
-    transform: translateY(4px);
+    box-shadow: 0px 0px 15px #5fa4d8;
 }
 
 @media only screen and (max-width: 425px) {
     .wrapper {
         border-radius: 0;
     }
-    
 }
